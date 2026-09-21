@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "kind": "VerificationManifestV1",
+  "commands": [
+    {"id": "unit", "argv": ["python3", "-m", "unittest", "discover", "-s", "tests"], "timeout_seconds": 300}
+  ]
+}
